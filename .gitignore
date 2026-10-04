@@ -20,7 +20,8 @@ htmlcov/
 !.env.example
 
 # Data and generated ML artifacts
-data/*
+data/raw/
+!data/processed/*.json
 !data/.gitkeep
 checkpoints/*
 !checkpoints/.gitkeep

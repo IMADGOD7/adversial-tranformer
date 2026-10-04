@@ -1,0 +1,10 @@
+[project]
+name = "adversial-transformer"
+version = "0.1.0"
+description = "Adaptive Transformer Inference with Multi-Exit Heads"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
