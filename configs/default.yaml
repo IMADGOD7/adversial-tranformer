@@ -33,3 +33,10 @@ training:
 paths:
   checkpoints_dir: "checkpoints"
   results_dir: "results"
+
+routing:
+  confidence:
+    min_tau: 0.50
+    max_tau: 0.99
+    grid_steps: 40
+    target_f1_ratio: 0.99 # Target: retain >= 99% of L6 validation Macro-F1
